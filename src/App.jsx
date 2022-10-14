@@ -7,11 +7,11 @@ import {
   Loader,
   Transactions,
   Services,
-  IdlySwap,
+  DosaSwap,
   LandingPage,
 } from "./components";
 
-import ardp from "./ardp";
+// import ardp from "./ardp";
 function App() {
   // const [count, setCount] = useState(0)
   return (
@@ -26,13 +26,12 @@ function App() {
                 <Navbar />
                 <Welcome />
                 <Services />
-                <IdlySwap />
                 <Transactions />
                 <Footer />
               </>
             }
           ></Route>
-          <Route path="/Swap" element={<IdlySwap />} />
+          <Route path="/Swap" element={<DosaSwap />} />
         </Routes>
       </div>
     </div>

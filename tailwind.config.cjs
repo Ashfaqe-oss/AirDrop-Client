@@ -5,6 +5,7 @@ module.exports = {
             display: ["Open Sans", "sans-serif"],
             body: ["Open Sans", "sans-serif"],
             mono: ['ui-monospace', "monospace"],
+            poppins: ['Poppins', 'sans-serif']
         },
         extend: {
             screens: {

@@ -9,7 +9,7 @@ function LandingPage() {
       </Link>
 
       <Link to="/Swap">
-        <button className="text-white m-5 md:m-8 p-10 border">Go to IdlySwap</button>
+        <button className="text-white m-5 md:m-8 p-10 border">Go to DosaSwap</button>
       </Link>
     </div>
   );

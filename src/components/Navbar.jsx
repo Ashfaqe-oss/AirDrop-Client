@@ -18,7 +18,7 @@ const Navbar = () => {
         ))}
         <Link to="/Swap">
         <li className="bg-[#2952e3] font-mono font-bold text-white py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
-          IdlySwap
+          DosaSwap
         </li>
         </Link>
         
