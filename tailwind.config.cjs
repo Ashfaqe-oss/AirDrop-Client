@@ -4,6 +4,7 @@ module.exports = {
         fontFamily: {
             display: ["Open Sans", "sans-serif"],
             body: ["Open Sans", "sans-serif"],
+            mono: ['ui-monospace', "monospace"],
         },
         extend: {
             screens: {

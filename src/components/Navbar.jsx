@@ -2,6 +2,7 @@ import { useState } from "react";
 import { HiMenuAlt4 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import logo from "../../images/logo.png";
+import {Link} from "react-router-dom";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -15,9 +16,12 @@ const Navbar = () => {
         {["About", "Market", "Exchange", "Wallet"].map((item, index) => (
           <NavbarItem key={item + index} title={item} />
         ))}
-        <li className="bg-[#2952e3] text-white py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
-          Login
+        <Link to="/Swap">
+        <li className="bg-[#2952e3] font-mono font-bold text-white py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
+          IdlySwap
         </li>
+        </Link>
+        
       </ul>
       <div className="flex relative">
         {toggleMenu ? (
@@ -42,7 +46,7 @@ const Navbar = () => {
               <NavbarItem
                 key={item + index}
                 title={item}
-                props="my-2 text-lg"
+                props="my-2 text-sm"
               />
             ))}
           </ul>
@@ -53,6 +57,6 @@ const Navbar = () => {
 };
 
 const NavbarItem = ({ title, props }) => {
-  return <li className={`mx-4 cursor-pointer text-white ${props}`}>{title}</li>;
+  return <li className={`mx-4 cursor-pointer text-xs text-white ${props}`}>{title}</li>;
 };
 export default Navbar;
