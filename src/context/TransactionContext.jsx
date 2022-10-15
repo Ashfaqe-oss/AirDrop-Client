@@ -17,7 +17,7 @@ const createEthereumContract = () => {
     signer
   );
 
-  console.log(transactionsContract);
+  // console.log(transactionsContract);
   return transactionsContract;
 };
 
@@ -60,7 +60,7 @@ export const TransactionsProvider = ({ children }) => {
           })
         );
 
-        console.log(structuredTransactions);
+        // console.log(structuredTransactions);
 
         setTransactions(structuredTransactions);
       } else {

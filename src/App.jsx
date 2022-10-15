@@ -10,6 +10,9 @@ import {
   DosaSwap,
   LandingPage,
 } from "./components";
+import {useEthers} from '@usedapp/core';
+import styles from './styles'
+import {uniswapLogo} from './assets'
 
 // import ardp from "./ardp";
 function App() {

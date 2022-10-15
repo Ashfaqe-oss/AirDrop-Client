@@ -35,10 +35,10 @@ const Welcome = () => {
   }
 
   return (
-    <div className="flex w-full justify-center items-start">
+    <div className="flex text-poppins w-full justify-center items-start">
       <div className="flex mf:flex-row flex-col items-start justify-between py-12 md:p-20 px-4">
         <div className="flex flex-1 justify-start flex-col mf:mr-10">
-          <h1 className="text-3xl sm:text-5xl text-white text-gradient py-1">
+          <h1 className="text-3xl text-poppins sm:text-5xl text-white text-gradient py-1">
             Send Crypto <br />
             across the world of web
           </h1>
@@ -68,8 +68,8 @@ const Welcome = () => {
             </button>
           )}
 
-          <div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-10">
-            <div className={`rounded-tl-2xl ${commonStyles}`}>Reliability</div>
+          <div className="grid font-poppins text-slate-200 sm:grid-cols-3 grid-cols-2 w-full mt-10">
+            <div className={`rounded-tl-2xl  ${commonStyles}`}>Reliability</div>
             <div className={`rounded-tr-2xl ${commonStyles}`}>Security</div>
             <div className={`md:rounded-tr-2xl ${commonStyles}`}>
               SiEthereum

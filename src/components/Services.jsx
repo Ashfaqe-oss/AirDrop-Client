@@ -4,7 +4,7 @@ import { BiSearchAlt } from "react-icons/bi";
 import { RiHeart2Fill } from "react-icons/ri";
 
 const ServiceCard = ({ color, title, icon, subtitle }) => (
-  <div className="flex flex-row justify-start items-center white-glassmorphism p-3 pb-6 m-5 cursor-pointer hover:shadow-xl">
+  <div className="flex font-poppins flex-row justify-start items-center white-glassmorphism p-3 pb-6 m-5 cursor-pointer hover:shadow-xl">
     <div
       className={`w-10 h-10 rounded-full ml-3 flex justify-center items-center ${color}`}
     >
@@ -19,7 +19,7 @@ const ServiceCard = ({ color, title, icon, subtitle }) => (
 
 const Services = () => {
   return (
-    <div className="flex w-full justify-center items-center graddient=bg-services font-poppins">
+    <div className="flex text-poppins w-full justify-center items-center graddient=bg-services font-poppins">
       <div className="flex mf:flex-row flex-col items-center justify-between md:p-20 py-12 px-4">
         <div className="flex-1 flex flex-col justify-center items-start md:ml-11">
           <h1 className="text-white text-3xl sm:text-5xl py-2 p-8 m-5 text-gradient">
